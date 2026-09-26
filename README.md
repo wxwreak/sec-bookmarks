@@ -2,11 +2,11 @@
   <img src="https://github.com/wreakdev/sec-bookmarks/blob/main/flag.png" alt="sec-bookmarks" width="220">
 </p>
 
-<h1 align="center">Pentest & CTF Resources</h1>
+<h1 align="center">Pentest & CTF Resources & Dev Kit</h1>
 
 
 <p align="center">
-  <strong>Handpicked cybersecurity links, CTF resources, and pentest references.</strong>
+  <strong>Handpicked cybersecurity links, CTF resources, malware analysis tools, and development references.</strong>
 </p>
 
 <p align="center">
@@ -34,6 +34,7 @@
 * [LabEx](https://labex.io) - An interactive "learn-by-doing" IT platform. No lengthy videos—just hands-on practice directly in the browser (WebIDE, Jupyter). It features a comprehensive catalog of courses and labs covering DevOps, Linux, Python, cybersecurity, and cloud technologies, complete with an AI assistant for troubleshooting errors.
 * [SadServers](https://sadservers.com/) - Linux & DevOps Troubleshooting Scenarios SaaS.
 * [pwn.college](https://pwn.college) - Free, open-source educational platform (often described as a "cybersecurity dojo") designed to teach practical computer security and ethical hacking skills.
+* [LetsDefend](https://letsdefend.io) - LetsDefend helps you build a blue team career with hands-on experience by investigating real cyber attacks inside a simulated SOC.
 
 ## Privesc Cheatsheets
 * [GTFOBins](https://gtfobins.github.io/) — Unix binaries and privilege escalation.
@@ -73,20 +74,35 @@
 ## Writeups & Walkthroughts
 * [0xdf HackTheBox Walkthroughts](https://0xdf.gitlab.io/) - In-depth, high-quality walkthroughs and methodology notes for HTB machines.
 
-## Binary Exploitation
-* [Pwntools](https://github.com/gallopsled/pwntools) - Pwntools is a CTF framework and exploit development library. Written in Python, it is designed for rapid prototyping and development, and intended to make exploit writing as simple as possible.
+## Malware Analysis & Reverse Engineering
+* [Ghidra](https://github.com/nationalsecurityagency/ghidra) — A top-notch, free, open-source decompiler straight from the US NSA.
+* [IDA Free](https://hex-rays.com/ida-free) — Industry standard for code analysis and reconstruction.
+* [IDA Pro](https://hex-rays.com/ida-pro) — Industry standard for commercial reverse engineering.
+* [Binary Ninja](https://binary.ninja/) — Interactive decompiler, disassembler, debugger, and binary analysis platform.
+* [PE-bear](https://github.com) — Excellent tool for quick visualization and analysis of PE headers.
+* [YARA](https://github.com) — The pattern matching swiss knife for malware researchers.
+* [ANY.RUN](https://any.run) — Interactive online malware sandbox for real-time analysis.
+* [Malware Bazaar](https://abuse.ch) — Community project for sharing and downloading fresh malware samples.
 
-## Dissamblers & Decompilers
-* [IDA Free](https://hex-rays.com/ida-free) - Industry standard for code analysis and reconstruction.
-* [IDA Pro](https://hex-rays.com/ida-pro) - Industry standard for code analysis and reconstruction.
-* [Ghidra](https://github.com/nationalsecurityagency/ghidra) - A top-notch, free, open-source decompiler straight from the US NSA.
-* [Binary Ninja](https://binary.ninja/) - Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform built by reverse engineers, for reverse engineers.
+## Debugging & Dynamic Analysis
+* [x64dbg](https://x64dbg.com/) — The best open-source graphical debugger for Windows applications (includes x32dbg).
+* [pwndbg](https://github.com/pwndbg/pwndbg) — A key extension for gdb on Linux, vital for binary exploitation.
+* [Sysinternals Suite](https://microsoft.com) — Essential Windows utilities including Process Monitor and Process Explorer.
+* [Display Filters](https://wiki.wireshark.org/DisplayFilters) — Examples of packet display filters for Wireshark.
+* [Wireshark Wiki](https://wiki.wireshark.org/) — Comprehensive documentation and network analysis guides.
 
-## Debuggers
-* [pwndbg](https://github.com/pwndbg/pwndbg) - A key extension for gdb on Linux. It visualizes registers, the stack, and the heap.
-* [x64dbg](https://x64dbg.com/) - The best open-source graphical debugger for Windows applications (includes both x32dbg and x64dbg).
+## Interpreted Decompilers (Python / .NET / Java)
+* [pyinstxtractor](https://github.com/extremecoders-re/pyinstxtractor) — Unpacker that extracts internals and bytecode from PyInstaller compiled .exe files.
+* [pycdc](https://github.com) — Modern C++ decompiler that converts Python bytecode back into readable .py source code.
+* [uncompyle6](https://pypi.org/project/uncompyle6/) — Reliable decompiler for older versions of Python (up to version 3.8).
+* [dnSpy](https://github.com) — .NET debugger and assembly editor (crucial for .NET malware).
 
-## Interpreted Decompilers
-* [pyinxstractor](https://github.com/extremecoders-re/pyinstxtractor) - An unpacker that extracts the internals and .pyc bytecode from a compiled .exe (created with PyInstaller).
-* [pycdc](https://pypi.org/project/pycdc/) - A modern C++ decompiler that converts Python bytecode back into readable .py source code.
-* [uncompyle6](https://pypi.org/project/uncompyle6/) - A reliable decompiler for older versions of Python (up to version 3.8).
+## Dev Kit & Automation
+* [Go Docs](https://go.dev) — Official Go language documentation and standard library reference.
+* [Go by Example](https://gobyexample.com) — A hands-on introduction to Go using annotated example programs.
+* [gopacket](https://github.com) — Google's Go library for packet processing and network analysis.
+* [Python Docs](https://python.org) — Official Python documentation.
+* [Pwntools](https://github.com/gallopsled/pwntools) — CTF framework and exploit development library written in Python.
+* [Scapy](https://scapy.net) — Powerful interactive packet manipulation program written in Python.
+* [Windows API Index](https://microsoft.com) — Microsoft Win32 API official reference for low-level development.
+* [JSON Crack](https://jsoncrack.com) — Seamless visualization of complex JS

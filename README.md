@@ -17,6 +17,17 @@
 
 ## Wikis
 * [HackTricks](https://book.hacktricks.xyz/) — Essential pentesting wiki.
+* [Wireshark Wiki](https://wiki.wireshark.org/) — Comprehensive documentation and guides.
+
+## Content Creators
+* [NetworkChuck](https://www.youtube.com/@NetworkChuck) — High-energy tutorials covering networking, Linux, cloud, and cybersecurity basics.
+* [David Bombal](https://www.youtube.com/@DavidBombal) — Deep dives into ethical hacking, network engineering, tech interviews, and tool demos.
+* [LoganSec](https://www.youtube.com/@Logan-sec) — Bug bounty and web security learned in public, featuring live hacking, recon, and real-world methodologies.
+* [Lostsec](https://www.youtube.com/@lostsec_ftw) — Focused on bug bounty hunting, advanced web recon, fuzzing techniques, and custom security scripts.
+* [BePractical](https://www.youtube.com/@BePracticalTech) — Practical tech, development, and cybersecurity tutorials.
+* [Djalil Ayed](https://www.youtube.com/@djalilayed) — In-depth tutorials and practical guides focusing on cybersecurity, pentesting, and reverse engineering.
+* [LiveOverflow](https://www.youtube.com/@LiveOverflow) — High-quality, educational videos on binary exploitation, reverse engineering, and security concepts.
+* [IppSec](https://www.youtube.com/@IppSec) — Masterclass walkthroughs and methodology breakdowns for Hack The Box machines.
 
 ## OSINT
 * [Shodan](https://www.shodan.io/) — Search engine for internet-connected devices.
